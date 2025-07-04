@@ -79,3 +79,17 @@ b, c = c, b
 
 print("b=", b)
 print("c=", c)
+
+#--------------------------------------- User Input ----------------------------------------------------
+
+# Always the input is string by default
+a = input("Enter your name: ")
+print("My name is", a)
+
+x = input("Enter your first number: ")
+y = input("Enter your second number: ")
+print(x + y) # in this, the input is consider as string 
+print(int(x) + int(y))
+print(int(x) - int(y))
+print(int(x) * int(y))
+print(int(x) / int(y))
